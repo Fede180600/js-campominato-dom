@@ -16,6 +16,10 @@ html {
     background-color: cornflowerblue;
     color: white;
 }
+
+.bomb {
+    background-color: red;
+}
 .app-wrapper {
     height: 100vh;
     width: 100%;
@@ -62,12 +66,20 @@ main{
     position: relative;
 }
 
-main>h2 {
+main>h2#my-title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 26px;
+}
+
+main>h2#my-result {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+
 }
 
 .d-none {
